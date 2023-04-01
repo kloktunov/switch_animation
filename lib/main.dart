@@ -70,10 +70,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return !value;
   }
 
-
-
-
-
   @override
   Widget build(BuildContext context) {
 
@@ -89,10 +85,6 @@ class _MyHomePageState extends State<MyHomePage> {
           
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-
-
-            
-
 
             LoadSwitch(
                 value: value,
@@ -110,18 +102,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   
                 },
             )
-
-
-
-
-
-
-
-
-
-
-
-
 
           ],
         ),
